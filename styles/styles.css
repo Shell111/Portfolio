@@ -305,6 +305,22 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .project__overlay--mobile-hover:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(252, 192, 174, 0.98);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+  }
 }
 
 /* Mobile menu */
