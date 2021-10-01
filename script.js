@@ -9,7 +9,7 @@ hamburger.addEventListener('click', () => {
 // Mobile project hover effect
 const projectOverlay = document.getElementsByClassName("project__overlay")[0]
 
-projectOverlay.addEventListener("touchstart", function() {
+projectOverlay.addEventListener("click", function() {
   projectOverlay.classList.add("project__overlay--mobile-hover")
 })
 
